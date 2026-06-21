@@ -38,5 +38,6 @@ Practice API repository for a book-review platform built with **NestJS**, **Pris
 ## Environment Variables
 
 - `DATABASE_URL` - PostgreSQL connection string
-- `JWT_SECRET` - JWT signing secret
+- `JWT_SECRET` - JWT signing secret (required)
 - `PORT` - API port (default `3000`)
+- `CORS_ORIGIN` - allowed origin list, comma-separated (for example `http://localhost:3000`)
